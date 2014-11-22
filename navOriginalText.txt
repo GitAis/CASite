@@ -1,0 +1,47 @@
+
+nav {
+      list-style: none;
+      background-color: #164949;
+      text-align: center;
+      padding: 0;
+      margin: 0;   
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+nav li {
+      font-family: 'Calibri', sans-serif;
+      font-size: 1.25em;
+      line-height: 2em;
+      height:1.5em;
+      border-bottom: .5px solid #888;
+    }
+nav li ul {
+      font-family: 'Calibri', sans-serif;
+      font-size: 1.25em;
+      line-height: 2em;
+      height:1.5em;
+      border-bottom: .5px solid #888;
+    }
+
+
+nav a {
+      text-decoration: none; /* turns off the underlines*/
+      color: #e1f3f7;
+    display: block; /* to make link span the width of the block */
+     }
+
+nav a:hover {
+      background-color: #005f5f; /* Changes BG colour on hover */
+    }
+    a.active {
+      background-color: #fff;
+      color: #444;
+    }
+

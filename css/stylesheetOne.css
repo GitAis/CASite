@@ -1,0 +1,293 @@
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 1em 1em 1em;
+    max-width: 960px;
+    /*min-height: 600px;*/
+    font-family: "Calibri", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+body clearFloat{
+clear:both;
+}
+ header {
+    /*position: fixed;*/
+    max-height: 20%;
+}
+
+ header img{
+     position:relative;
+ }
+/*body mainHeader {
+    position: fixed;
+    max-height: 20%;
+}
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #7cc0bb;
+}
+
+
+nav {
+      list-style: none;
+      background-color: #164949;
+      text-align: center;
+      padding: 0;
+      margin: 0;   
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+nav li {
+      font-family: 'Calibri', sans-serif;
+      font-size: 1.25em;
+      line-height: 2em;
+      height:1.5em;
+      border-bottom: .5px solid #888;
+    }
+nav li ul {
+      font-family: 'Calibri', sans-serif;
+      font-size: .8em;
+      line-height: 1em;
+      height:1em;
+      border-bottom: .5px solid #888;
+    }
+
+nav a {
+      text-decoration: none; /* turns off the underlines*/
+      color: #e1f3f7;
+    display: block; /* to make link span the width of the block */
+     }
+
+nav a:hover {
+      background-color: #005f5f; /* Changes BG colour on hover */
+    }
+    a.active {
+      background-color: #fff;
+      color: #444;
+    }
+
+
+b, strong {
+    font-weight: 600;
+}
+
+/* samp {
+    display: none;
+}
+*/
+section {
+max-width:  95%;
+}
+
+article {
+    float: left;
+     max-width:  95%;
+}
+article content {
+    float: left;
+     max-width: 95%;
+}
+
+article img {
+    float: left;
+     max-width: 95%;
+}
+
+aside {
+   padding: .5em 0em .5em 0em;
+    float: left;
+max-width:  95%;
+}
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+/*Start of Show_Hide css
+/* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
+ .Toggler {
+    font-family:Arial, sans-serif;
+    vertical-align: top;
+    height:auto !important;
+}
+.moreExpand {
+    display:none;
+    height:auto;
+    margin:0;
+    float: left;
+}
+.show {
+    display: none;
+}
+.hide:target + .show {
+    display: inline;
+}
+.hide:target {
+    display: none;
+}
+.hide:target ~ .moreExpand {
+    display:inline;
+}
+/*style the (more) and (less) */
+.hide, .show {
+    width: 5.5em;
+    height: 1.5em;
+    border-radius: 2em;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 0 .05em 0 #777;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: .05em .05em .1em #000;
+    background: #7cc0bb;
+    opacity: .95;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 1em;
+}
+.hide:hover, .show:hover {
+    color: #eee;
+    text-shadow: 0 0 .1em #666;
+    text-decoration: none;
+    box-shadow: 0 0 .1em #222 inset;
+    opacity: 1;
+    margin-bottom: 1em;
+}
+.moreExpand p {
+    height:auto;
+    line-height: 1.05em;
+    margin:0;
+}
+.introCollapse {
+    float: left;
+    height: auto;
+    width: 90%;
+    line-height: 1.05em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+footer {
+clear: both;
+    
+}
+footer p {
+    float: left;
+    font-size: .5em;   
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+@media screen and (min-width: 600px) {
+  nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+    nav li{
+    display: inline-block;
+    }
+    
+    img {
+    max-width: 33%;
+    }
+img left {
+    float: left;
+    }
+img right {
+    float: right;
+    }
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+    
+body {
+ font-size: 1.25em
+}
+    
+article {
+    float: left;
+     max-width:  70%;
+}
+article content {
+    float: left;
+     max-width: 55%;
+}
+
+article img {
+    float: left;
+     max-width: 35%;
+}
+
+aside {
+   padding: .5em 0em .5em 0em;
+    float: left;
+max-width:  25%;
+}
+    
+/*   body mainHeader {
+ max-height: 33%;
+}*/

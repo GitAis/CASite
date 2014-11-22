@@ -1,0 +1,6 @@
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\bin\BrianFitzerStudio.dll.config
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\bin\BrianFitzerStudio.dll
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\bin\BrianFitzerStudio.pdb
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\obj\Debug\BrianFitzerStudio.csprojResolveAssemblyReference.cache
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\obj\Debug\BrianFitzerStudio.dll
+H:\NCI Web Dr Anu Sahni\VisualStudioSite\BrianFitzerStudio\BrianFitzerStudio\obj\Debug\BrianFitzerStudio.pdb
